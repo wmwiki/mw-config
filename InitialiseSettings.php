@@ -1,5 +1,5 @@
 <?php
-// Mw-config
+// MediaWiki Config File
 include('/data/project/wm/priv.php');
 $wgConf->settings = [
   'wgServer' => [
