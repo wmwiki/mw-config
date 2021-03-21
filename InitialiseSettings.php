@@ -1,4 +1,5 @@
 <?php
+// Mw-config
 include('/data/project/wm/priv.php');
 $wgConf->settings = [
   'wgServer' => [
