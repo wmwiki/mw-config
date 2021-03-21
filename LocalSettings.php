@@ -3,6 +3,7 @@
 if ( !defined( 'MEDIAWIKI' ) ) {
 	exit;
 }
+## Private file
 include('/data/project/wm/priv.php');
 
 ## Uncomment this to disable output compression
