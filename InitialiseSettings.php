@@ -146,4 +146,8 @@ $wgConf->settings = [
 'wgCheckUserEnableSpecialInvestigate' => [
     'default' => true,
 ],
+'wgDefaultUserOptions' => [
+    'default' => [
+                 'usebetatoolbar' = 1,
+],],
 ];
