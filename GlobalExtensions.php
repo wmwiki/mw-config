@@ -3,3 +3,4 @@
 wfLoadExtensions( [	
     'CentralAuth',
 ] );
+// Edit Kuroski
