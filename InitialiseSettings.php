@@ -147,3 +147,4 @@ $wgConf->settings = [
     'default' => true,
 ],
 ];
+require_once( '/data/project/wm/public_html/LocalExtensions.php' );
