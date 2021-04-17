@@ -148,3 +148,4 @@ $wgConf->settings = [
 ],
 ];
 require_once( '/data/project/wm/public_html/LocalExtensions.php' );
+$wgShowExceptionDetails = true;
