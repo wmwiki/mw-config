@@ -138,9 +138,6 @@ $wgConf->settings = [
 	'wgUseImageMagick' => [
 		'default' => true,
 	],
-	'wgImageMagickConvertCommand' => [
-		'default' => '/usr/bin/convert',
-	],
 	'wgSVGConverter' => [
 		'default' => 'ImageMagick',
 	],
@@ -164,6 +161,10 @@ $wgConf->settings = [
 	],
 	'wgShellLocale' => [
 		'default' => 'en_US.utf8',
+	],
+	// Logo //
+	'wgLogo' => [
+		'default' => '/images/b/bc/Wiki.png',
 	],
 ];
 require_once( '/data/project/wm/public_html/LocalExtensions.php' );
