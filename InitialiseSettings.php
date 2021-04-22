@@ -128,6 +128,43 @@ $wgConf->settings = [
 	'wgCheckUserEnableSpecialInvestigate' => [
 		'default' => true,
 	],
+
+	'wgEnableUploads' => [
+		'default' => true,
+	],
+	'wgUploadDirectory' => [
+		'default' => 'images',
+	],
+	'wgUseImageMagick' => [
+		'default' => true,
+	],
+	'wgImageMagickConvertCommand' => [
+		'default' => '/usr/bin/convert',
+	],
+	'wgSVGConverter' => [
+		'default' => 'ImageMagick',
+	],
+	'wgUseImageResize' => [
+		'default' => true,
+	],
+	'wgMemoryLimit' => [
+		'default' => '50M',
+	],
+	'wgMaxImageArea' => [
+		'default' => 1.25e7,
+	],
+	'wgGenerateThumbnailOnParse' => [
+		'default' => true,
+	],
+	'wgUseInstantCommons' => [
+		'default' => true,
+	],
+	'wgPingback' => [
+		'default' => true,
+	],
+	'wgShellLocale' => [
+		'default' => 'en_US.utf8',
+	],
 ];
 require_once( '/data/project/wm/public_html/LocalExtensions.php' );
 $wgShowExceptionDetails = true;
