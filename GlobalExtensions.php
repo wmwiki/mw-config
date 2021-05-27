@@ -14,7 +14,7 @@ wfLoadExtensions( [
 //     'EventStreamConfig',	
 //     'Gadgets',	
 //     'ImageMap',	
-//     'InputBox',	
+     'InputBox',	
 //     'Interwiki',	
 //     'LocalisationUpdate',	
 //     'NewUserMessage',	
